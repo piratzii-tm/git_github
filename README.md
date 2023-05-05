@@ -6,7 +6,11 @@ Below there are presented and somehow explained some of the basic Git commands. 
 
 To create a repository go to you repositories and click on `NEW`.
 
+<img src="images/1.png">
+
 After that give you repo a name and a check the **Add a README file**. Readme files are very important because they should contain the description of your app.
+
+<img src="images/2.png">
 
 Now you have a blank repo.
 
@@ -19,9 +23,13 @@ After cloning ther repo add the files you want to be on your remote repository. 
 - commit stage
 - push stage
 
+<img src="images/3.png" height=300 width=250>
+
 To add all files type `git add .`, then for commiting the changes type `git commit -m " <MESSAGE REGARDING YOUR CHANGES> "` and then you need to push your changes form local repo to remote repo using `git push origin <BRANCH NAME>`. <BRANCH NAME> represents the name of the branch you want to push.
 
 ## Creating new branches
+
+<img src="images/4.png" height=300 width=650>
 
 To create a new branch type `git branch ' <BRANCH NAME> '`. And if you want to add your work on that branch, before adding and merging, you need to checkout using `git checkout <BRANCH NAME>`.
 
